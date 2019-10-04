@@ -9,3 +9,17 @@ VRPose(isFinite);
 VRDisplayEvent(isFinite);
 VRDisplayCapabilities(Infinity);
 VRDisplay(Infinity);
+
+typeof 22; // "number"
+
+typeof "Abigail"; // "string"
+
+typeof true; // "boolean"
+
+typeof undefined; // "undefined"
+
+typeof { age: 18 }; // "object"
+
+
+typeof null;  // "object" !?!?
+typeof [1,2,3]; // "object"
