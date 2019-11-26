@@ -36,7 +36,8 @@ console.log( friends.length );
 console.log( friends[1] );
 
 function VRDisplay() {
-    var vrp = VRPose;
+    var vrp;
+    vrp = VRPose;
     for (let i = 0; i < array.length; i++) {
         const element = array[i];
         
