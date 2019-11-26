@@ -35,3 +35,10 @@ var friends = [ "Fabian", "Hallie", "TJ" ];
 console.log( friends.length );
 console.log( friends[1] );
 
+function VRDisplay() {
+    var vrp = VRPose;
+    for (let i = 0; i < array.length; i++) {
+        const element = array[i];
+        
+    }
+}
