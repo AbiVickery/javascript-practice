@@ -143,4 +143,5 @@ debugger;
 //     console.log(i);
 // }
 
-thisPlayer = !thisPlayer;
+// thisPlayer = !thisPlayer;
+
