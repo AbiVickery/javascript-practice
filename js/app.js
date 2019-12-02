@@ -138,5 +138,5 @@ for (const i in c) {
 }
 
 for (const i of c) {
-    console.log(c[i]);
+    console.log(i);
 }
