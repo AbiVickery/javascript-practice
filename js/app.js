@@ -118,16 +118,16 @@ console.log(totalCost);
 debugger;
 
 
-var date1 = new Date();
-console.log('date1',date1);
+// var date1 = new Date();
+// console.log('date1',date1);
 
-setTimeout(() => {
-    var date2 = new Date();
-    console.log('date2',date2);
+// setTimeout(() => {
+//     var date2 = new Date();
+//     console.log('date2',date2);
 
-    var diff = date2 - date1;
-    console.log(diff);
-}, 2000);
+//     var diff = date2 - date1;
+//     console.log(diff);
+// }, 2000);
 
 
 
