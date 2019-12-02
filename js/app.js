@@ -142,3 +142,5 @@ debugger;
 // for (const i of c) {
 //     console.log(i);
 // }
+
+thisPlayer = !thisPlayer;
