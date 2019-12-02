@@ -110,7 +110,21 @@ let roundTrip = milesToHome * 2;
 let weekDist = roundTrip * 5;
 let monthDist = weekDist * 4;
 let totalDistance = monthDist * 11;
+debugger;
 
 let totalMilesPerGal = totalDistance/milesPerGal;
 let totalCost = totalMilesPerGal * gasRate;
 console.log(totalCost);
+debugger;
+
+
+var date1 = new Date();
+console.log('date1',date1);
+
+setTimeout(() => {
+    var date2 = new Date();
+    console.log('date2',date2);
+
+    var diff = date2 - date1;
+    console.log(diff);
+}, 2000);
