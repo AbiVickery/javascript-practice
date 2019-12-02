@@ -128,3 +128,15 @@ setTimeout(() => {
     var diff = date2 - date1;
     console.log(diff);
 }, 2000);
+
+let c = [];
+c[2] = 10;
+c[5] = 15;
+console.log(c);
+for (const i in c) {
+    console.log(c[i]);
+}
+
+for (const i of c) {
+    console.log(c[i]);
+}
