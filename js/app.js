@@ -43,4 +43,30 @@ function VRDisplay() {
         
     }
 }
-{PointerEvent}
+// {PointerEvent}
+
+
+var foo = 'hello';
+{
+    var faz = 'hola';
+    let bar = 'world';
+    const yo = 'yoyo';
+    console.log(faz);
+    console.log(bar);
+}
+
+console.log(foo); // hello
+console.log(faz); 
+// console.log(bar); // not defined
+// console.log(yo); // not defined
+
+var pay = 0;
+{
+    var payRate = 18;
+    let weeklyPay = payRate * 40;
+    let monthlyPay = weeklyPay * 4;
+    var yearlyPay = monthlyPay * 12;
+    pay = yearlyPay;
+}
+
+console.log(pay);
