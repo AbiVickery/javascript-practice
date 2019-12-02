@@ -70,3 +70,28 @@ var pay = 0;
 }
 
 console.log(pay);
+
+{
+    console.log(world);
+    console.log(hello);
+    let foo = helloWorld;
+    console.log(foo);
+}
+
+let fooBar = foo + hello + world;
+console.log(fooBar);
+
+// data types
+let string = 'string'; // string
+let anotherString = "another string"; // string
+let intString = '0';
+let escapeChar = "We can't put a single quote in a string"; 
+let escapeChar2 = "He said 'this would work'";
+let escapeChar2 = "he said\"this would work\"";
+let int = 0; // integer
+let int = 2.1; // integer
+let bool = false; // boolean
+let bool2 = true; // boolean
+
+let arr = []; // array
+let obj = {}; // object
