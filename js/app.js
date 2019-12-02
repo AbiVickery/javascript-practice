@@ -99,3 +99,18 @@ let bool2 = true; // boolean
 
 let arr = []; // array
 let obj = {}; // object
+
+let gasRate = 2.20;
+let milesPerGal = 16;
+let milesToHome = 6.3;
+let tankSize = 13;
+
+let costOfTank = gasRate * tankSize;
+let roundTrip = milesToHome * 2;
+let weekDist = roundTrip * 5;
+let monthDist = weekDist * 4;
+let totalDistance = monthDist * 11;
+
+let totalMilesPerGal = totalDistance/milesPerGal;
+let totalCost = totalMilesPerGal * gasRate;
+console.log(totalCost);
