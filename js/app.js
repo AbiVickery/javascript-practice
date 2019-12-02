@@ -129,14 +129,16 @@ setTimeout(() => {
     console.log(diff);
 }, 2000);
 
-let c = [];
-c[2] = 10;
-c[5] = 15;
-console.log(c);
-for (const i in c) {
-    console.log(c[i]);
-}
 
-for (const i of c) {
-    console.log(i);
-}
+
+// let c = [];
+// c[2] = 10;
+// c[5] = 15;
+// console.log(c);
+// for (const i in c) {
+//     console.log(c[i]);
+// }
+
+// for (const i of c) {
+//     console.log(i);
+// }
