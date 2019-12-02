@@ -71,6 +71,10 @@ var pay = 0;
 
 console.log(pay);
 
+var hello = 'world';
+let world = 'hello';
+const helloWorld = 'hello world!';
+
 {
     console.log(world);
     console.log(hello);
