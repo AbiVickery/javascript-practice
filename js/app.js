@@ -772,7 +772,7 @@ uniqSort([4,2,2,3,2,2,2]); // => [2,3,4]
 console.log(uniqSort);  */
 
 const uniqSort = function(arr) {
-    const breadcrumbs = {};
+    const breadcrumbs = {arr};
 
     // do stuff below
     for (let i = 0; i < arr.length; i++) {
