@@ -761,7 +761,7 @@ console.log(quayHotel.checkAvailability());
 uniqSort([4,2,2,3,2,2,2]); // => [2,3,4]
 */
 
-/*
+
 const uniqSort = function(arr) {
     const breadcrumbs = {};
 
@@ -769,9 +769,11 @@ const uniqSort = function(arr) {
 };
 
 uniqSort([4,2,2,3,2,2,2]); // => [2,3,4]
-console.log(uniqSort);  */
+console.log(uniqSort);  
 
-const uniqSort = function(arr) {
+// ~ ~ ~ ~
+
+const myUniqSort = function(arr) {
     const breadcrumbs = {arr};
 
     // do stuff below
@@ -780,5 +782,5 @@ const uniqSort = function(arr) {
     };
     console.log(arr);
 };
-uniqSort([4,2,2,3,2,2,2]); // => [2,3,4]
-console.log(uniqSort);
+myUniqSort([4,2,2,3,2,2,2]); // => [2,3,4]
+console.log(myUniqSort);
