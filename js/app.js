@@ -298,8 +298,8 @@ console.log(arr11.length - 1);
 
 let obj7 = {
     animal0: ['Tripod Fish', 'Pterodactyl', 'Tasmanien Tiger'],
-    animal1: ['Tripod Fish', 'Pterodactyl', 'Tasmanien Tiger'],
-    animal2: ['Tripod Fish', 'Pterodactyl', 'Tasmanien Tiger']
+    animal1: ['Dragon Fish', 'Teranedon', 'Tasmanien Devil'],
+    animal2: ['Puffer Fish', 'T-Rex', 'Ball Python']
     //...
 }
 
