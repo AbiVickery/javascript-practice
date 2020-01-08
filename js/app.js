@@ -761,11 +761,24 @@ console.log(quayHotel.checkAvailability());
 uniqSort([4,2,2,3,2,2,2]); // => [2,3,4]
 */
 
+/*
 const uniqSort = function(arr) {
     const breadcrumbs = {};
 
     return arr.sort((a, b) => a - b);
 };
 
+uniqSort([4,2,2,3,2,2,2]); // => [2,3,4]
+console.log(uniqSort);  */
+
+const uniqSort = function(arr) {
+    const breadcrumbs = {};
+
+    // do stuff below
+    for (let i = 0; i < arr.length; i++) {
+        return arr.sort((a, b) => a - b);
+    };
+    console.log(arr);
+};
 uniqSort([4,2,2,3,2,2,2]); // => [2,3,4]
 console.log(uniqSort);
